@@ -29,10 +29,8 @@ function Todo() {
       <ul>
         <For each={todos()} fallback={<li>No item</li>}>
           {(item, i) => (
-            <li>
-              <p>
+            <li class="todo-item">
               {item}
-              </p>
               <button
                 onClick={() =>
                   setTodos((prev: string[]) => [

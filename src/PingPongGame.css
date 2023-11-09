@@ -1,0 +1,34 @@
+.table {
+  position:relative;
+  width: 300px;
+  height: 600px;
+  background-color: slategray;
+}
+
+.table-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  background-color: midnightblue;
+  transition: all 0.2s linear;
+}
+
+.ball {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    transition: all 0.2s linear;
+    border-radius: 50%;
+}

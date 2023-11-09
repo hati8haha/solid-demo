@@ -69,3 +69,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.todo-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 14rem;
+  justify-content: space-between;
+}
