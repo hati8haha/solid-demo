@@ -10,7 +10,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "solid-js": "^1.7.12"
+    "solid-js": "^1.7.12",
+    "solid-motionone": "^1.0.0"
   },
   "devDependencies": {
     "vite": "^4.4.9",
